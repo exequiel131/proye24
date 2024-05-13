@@ -14,7 +14,14 @@ const routes: Routes = [
  //el app routing es nuestro aarchivo de ruteo de proyecto va a contener las urls de los modulos oo comnponentes
  //inicio component va vacio 
  //carga peresosa se activa cuando solo cuando accedemos al modulo inicio 
- {path:"",loadChildren:()=>import('./modules/inicio/inicio.module').then(m=>m.InicioModule)}
+ {path:"",loadChildren:()=>import('./modules/inicio/inicio.module').then(m=>m.InicioModule)},
+{
+  path:"",loadChildren:()=>import('./modules/producto/producto.module').then(m=>m.ProductoModule)
+}
+
+
+
+
 ];
 
 @NgModule({
