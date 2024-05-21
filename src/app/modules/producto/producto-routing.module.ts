@@ -5,6 +5,8 @@ import { AlimentacionComponent } from './pages/alimentacion/alimentacion.compone
 import { IndumentariaComponent } from './pages/indumentaria/indumentaria.component';
 import { JuguetesComponent } from './pages/juguetes/juguetes.component';
 
+//rutas hijas
+
 const routes: Routes = [
   {
     path:"producto",component:ProductoComponent
