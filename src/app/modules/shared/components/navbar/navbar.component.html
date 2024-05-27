@@ -2,17 +2,17 @@
     <button mat-icon-button class="example-icon" aria-label="Example icon-button with menu icon">
         <mat-icon>menu</mat-icon>
     </button>
-    <span>My App</span>
+    <span></span>
     <!--botonm para la vista inicio-->
-    <button mat-button routerLink="/inicio">inicio</button>
+    <button mat-button routerLink="/inicio">Inicio</button>
 
     <!--menu desplegable-->
-    <button mat-button [matMenuTriggerFor]="producto">productos</button>
+    <button mat-button [matMenuTriggerFor]="producto">Productos</button>
     <mat-menu #producto="matMenu">
         <button mat-menu-item routerLink="/producto"> General</button>
-        <button mat-menu-item routerLink="/alimentacion">alimentacion</button>
-        <button mat-menu-item routerLink="/indumentaria">indumentaria</button>
-        <button mat-menu-item routerLink="/juguetes"> juguetes</button>
+        <button mat-menu-item routerLink="/alimentacion">Alimentacion</button>
+        <button mat-menu-item routerLink="/indumentaria">Indumentaria</button>
+        <button mat-menu-item routerLink="/juguetes"> Juguetes</button>
     </mat-menu>
 
     <span class="example-spacer"></span>
